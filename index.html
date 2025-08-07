@@ -14,5 +14,27 @@
         <span class="badge" style="background-color: rgb(13, 230, 13);" id="issueCount"> 0 </span>
         <span class="badge" style="background-color: #d11111;" id="closedCount"> 0 </span>
       </h1>
+      <div class="jumbotron">
+        <h3>Add New Issue:</h3>
+        <form id="issueInputForm">
+          <div class="form-group">
+            <label for="issueDescription">Description</label>
+            <input type="text" class="form-control" id="issueDescription" placeholder="Describe the issue ...">
+          </div>
+          <div class="form-group">
+            <label for="issueSeverity">Severity</label>
+            <select id="issueSeverity" class="form-control">
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="issueAssignedTo">Assigned To</label>
+            <input type="text" class="form-control" id="issueAssignedTo" placeholder="Enter responsible ...">
+          </div>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
 </body>
 </html>
