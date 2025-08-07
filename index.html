@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>issue-tracker</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="container">
-      <h1>Issue Tracker 
-        <span class="badge" style="background-color: rgb(13, 230, 13);" id="issueCount"> 0 </span>
-        <span class="badge" style="background-color: #d11111;" id="closedCount"> 0 </span>
-      </h1>
-      <div class="jumbotron">
-        <h3>Add New Issue:</h3>
-        <form id="issueInputForm">
-          <div class="form-group">
-            <label for="issueDescription">Description</label>
-            <input type="text" class="form-control" id="issueDescription" placeholder="Describe the issue ...">
-          </div>
-          <div class="form-group">
-            <label for="issueSeverity">Severity</label>
-            <select id="issueSeverity" class="form-control">
-              <option value="Low">Low</option>
-              <option value="Medium">Medium</option>
-              <option value="High">High</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="issueAssignedTo">Assigned To</label>
-            <input type="text" class="form-control" id="issueAssignedTo" placeholder="Enter responsible ...">
-          </div>
-          <button type="submit" class="btn btn-primary">Add</button>
-        </form>
-      </div>
-      <div class="col-lg-12">
-        <div id="issuesList">
+        <h1>Issue Tracker
+            <span class="badge" style="background-color: rgb(13, 230, 13);" id="issueCount"> 0 </span>
+            <span class="badge" style="background-color: #d11111;" id="closedCount"> 0 </span>
+        </h1>
+        <div class="jumbotron">
+            <h3>Add New Issue:</h3>
+            <form id="issueInputForm">
+                <div class="form-group">
+                    <label for="issueDescription">Description</label>
+                    <input type="text" class="form-control" id="issueDescription" placeholder="Describe the issue ...">
+                </div>
+                <div class="form-group">
+                    <label for="issueSeverity">Severity</label>
+                    <select id="issueSeverity" class="form-control">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="issueAssignedTo">Assigned To</label>
+                    <input type="text" class="form-control" id="issueAssignedTo" placeholder="Enter responsible ...">
+                </div>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </form>
         </div>
-      </div>
+        <div class="col-lg-12">
+            <div id="issuesList">
+            </div>
+        </div>
+
+        <!-- Beautiful Footer Inside Container -->
+        <footer style="
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  ">
+            <p style="margin: 0; color: #6c757d;">
+                Developed with ❤️ by <strong style="color: #343a40;">Amdad Islam</strong>
+            </p>
+        </footer>
     </div>
 </body>
+
 </html>
