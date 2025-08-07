@@ -21,7 +21,7 @@ A sleek, responsive **Issue Tracking Web App** built using **HTML**, **Tailwind 
 ##  Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,tailwindcss,js" alt="Tech Stack" width="180"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack" width="220"/>
 </p>
 
 ---
@@ -32,7 +32,6 @@ A sleek, responsive **Issue Tracking Web App** built using **HTML**, **Tailwind 
   <img src="https://i.postimg.cc/PLACEHOLDER/issue-tracker-screenshot.png" alt="Issue Tracker Screenshot" width="800"/>
 </p>
 
-> *Replace the image link above with your own hosted screenshot.*
 
 ---
 
@@ -42,7 +41,4 @@ A sleek, responsive **Issue Tracking Web App** built using **HTML**, **Tailwind 
 # Clone this repository
 git clone https://github.com/amdadislam01/Issue-tracker.git
 
-# Navigate to project folder
-cd Issue-tracker
 
-# Open index.html in your browser
