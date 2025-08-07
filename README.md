@@ -29,7 +29,7 @@ A sleek, responsive **Issue Tracking Web App** built using **HTML**, **Tailwind 
 ##  Screenshot
 
 <p align="center">
-  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/screenshot-2025-08-07-16-13-59.png?updatedAt=1754561703251" alt="Issue Tracker Screenshot" width="800"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/screenshot-2025-08-07-16-13-59.png?updatedAt=1754561703251" alt="Issue Tracker Screenshot" width="1000"/>
 </p>
 
 
