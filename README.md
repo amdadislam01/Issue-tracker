@@ -1,4 +1,4 @@
-#  🗂 Issue Tracker
+#  🗂 Issue Tracke
 
 A sleek, responsive **Issue Tracking Web App** built using **HTML**, **Tailwind CSS**, and **JavaScript**. Perfect for managing and tracking issues—bugs, feature requests, or tasks—with clarity and simplicity.
 
